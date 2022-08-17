@@ -8,6 +8,8 @@ public class Car {
 	double Preise;
 
 	String marke;
+	
+	luntai Luntai;
 
 	// konstruktor
 	public Car() {
@@ -21,10 +23,17 @@ public class Car {
 		this.marke = marke;
 
 	}
+	
+	public Car(int Reifen,double preis, String marke, String m, String typ ) {
+		this.Reifen = Reifen;
+		this.Preise = preis;
+		this.marke = marke;
+		this.Luntai = new luntai(m, typ);
+	}
 
 	public void drive() {
 
-		System.out.println(this.marke + "   fährt jetzt.");
+		System.out.println(this.marke + " fährt jetzt.");
 
 	}
 
@@ -46,6 +55,11 @@ public class Car {
 	public static void ausgabe()
 	{
 		System.out.println("Ich bin eine Static Methode und benötige kein Objekt");
+	}
+	
+	public void details () {
+		System.out.println("Die Reifen sind von " + this.Luntai.markeString);
+		System.out.println("Sie sind "+ this.Luntai.reifen);
 	}
 	
 }
