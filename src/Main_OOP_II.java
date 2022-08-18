@@ -28,6 +28,17 @@ public class Main_OOP_II {
 		
 		Car bMWCar = new Car(4, 1500, "BMW", "Continental", "Winterreifen");
 		bMWCar.details();
+		
+		Held player = new Held("Joe", -50);
+		player.getLebenspunkt();
+		
+		int schaden = 10;
+		
+		player.setLebenspunkt(schaden);
+		
+		Account jBAccount  = new Account("Justin Biber", "0210521452");
+		jBAccount.setPasswordString("0210521452");
+		
 	}
 
 }
