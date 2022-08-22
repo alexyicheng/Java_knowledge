@@ -36,8 +36,15 @@ public class Main_OOP_II {
 		
 		player.setLebenspunkt(schaden);
 		
+		
+		
 		Account jBAccount  = new Account("Justin Biber", "0210521452");
 		jBAccount.setPasswordString("0210521452");
+			
+		
+		
+		
+	
 		
 	}
 

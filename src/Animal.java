@@ -1,5 +1,5 @@
 
-public class Animal {
+public abstract class Animal {
 
 	// Eigenschaften/Attribute
 	String nameString;
@@ -21,4 +21,6 @@ public class Animal {
 		System.out.println("jetzt isst " + this.nameString + " gerade.");
 	}
 
+	public abstract void atmen();
+	
 }

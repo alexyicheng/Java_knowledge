@@ -16,4 +16,12 @@ public class Bird extends Animal {
 		System.out.println(this.nameString + " kann fliegen.");
 	}
 
+	@Override
+	public void atmen() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
 }

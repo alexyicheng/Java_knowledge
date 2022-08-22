@@ -1,4 +1,7 @@
-import javax.imageio.plugins.bmp.BMPImageWriteParam;
+
+
+
+
 
 public class Main {
 
@@ -10,7 +13,10 @@ public class Main {
 		VW.Preise = 6000.50;
 		VW.Reifen = 4;
 		
-		 
+		
+		Ipad ipad = new Ipad(500, "Ipad");
+		ipad.powerOn();
+		
 		
 	}
 

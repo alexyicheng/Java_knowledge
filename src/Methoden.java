@@ -3,6 +3,8 @@
 public class Methoden {
 
 	public static void main(String[] args) {
+		
+		createenemy();
 		// TODO Auto-generated method stub
 
 		double erg =	calculator(3.547, 6.354, '*');
